@@ -1,9 +1,9 @@
-/* SWForÁaDeVendas,
- * por celso [at] superwaba [dot] com [dot] br
- * <celso marcelo da silva>
+/* SWFor√ßaDeVendas,
+ * por Celso [at] superwaba [dot] com [dot] br
+ * <Celso Marcelo da Silva>
  * 
  * This is an example application coded using SuperWaba
- * its meant as a learning source  for  other SW user¥s
+ * its meant as a learning source  for  other SW user¬¥s
  * on how to use and build a  real-life solution/appli-
  * cation using SuperWaba.
  * 
@@ -28,12 +28,12 @@ public class ForcaDeVendas extends MainWindow
 {    
    public static Color defaultBackColor = new Color(0xd9d9ff);
    public static Color defaultForeColor = new Color(0x000099);
-   public static String [] tipo = {"","Normal","BonificaÁ„o"};
-   public static String [] regiao = {"","Regi„o-01","Regi„o-02"};
+   public static String [] tipo = {"","Normal","Bonifica√ß√£o"};
+   public static String [] regiao = {"","Regi√£o-01","Regi√£o-02"};
    public static String [] condfrete = {"","01-cif","02-fob"};
    public static String [] estados = {"","AC","AL","AP","AM","BA","CE","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO"};
    public static String [] condpag = {"","28ddl","30 dias","45 dias","Avista"};
-   public static String [] canal = {"","Atacado","Varejo","ExportaÁ„o","Rede"};
+   public static String [] canal = {"","Atacado","Varejo","Exporta√ß√£o","Rede"};
    public static String [] regiaogeo = {"","Litoral","Interior","Grande SP","Grande Rio"};
    public static String [] ramo = {"","Micro-Empresa","Supermercado","Rede","Atacadista"};
    public static String [] checkout = {"","Sem Checkout","01-Checkout","02-Checkout","03-Checkout"};
@@ -102,7 +102,7 @@ public class ForcaDeVendas extends MainWindow
    
    public ForcaDeVendas()
    {
-      super("SW ForÁa de Vendas", TAB_ONLY_BORDER);
+      super("SW For√ßa de Vendas", TAB_ONLY_BORDER);
       Settings.setUIStyle(waba.sys.Settings.Flat);
       
       
@@ -142,7 +142,7 @@ public class ForcaDeVendas extends MainWindow
             }
             catch (Exception e)
             {
-               throw new RuntimeException("Classe "+classNames[x]+" n„o pode ser instanciado!");
+               throw new RuntimeException("Classe "+classNames[x]+" n√£o pode ser instanciado!");
             }
            
          MainWindow.getMainWindow().swap(screens[x]);
@@ -158,7 +158,7 @@ public class ForcaDeVendas extends MainWindow
             switch( mbar.getSelectedMenuItem() )
             {
                case 1: 
-               popupModal(new MessageBox("Sobre","SW ForÁa de Vendas|Example program for the|SuperWaba SDK. This software|is freeware. Help support|the open source projects.|Created by Celso Marcelo da Silva|www.superwaba.com.br"));
+               popupModal(new MessageBox("Sobre","SW For√ßa de Vendas|Example program for the|SuperWaba SDK. This software|is freeware. Help support|the open source projects.|Created by Celso Marcelo da Silva|www.superwaba.com.br"));
                break;
             }
       }
