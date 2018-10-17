@@ -1,5 +1,5 @@
 # superwaba-totalcross
-## Project developed in 2005
+## Sales - Project developed in 2005
 
 SuperWaba evolved from the Waba project which was an independent forerunner of Java Platform, Micro Edition (Java ME). SuperWaba had initial support only for Palm OS; starting in version 3, it added support for Windows CE, as the prior Waba VM.
 
